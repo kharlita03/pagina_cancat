@@ -1,0 +1,16 @@
+body{
+    background-image: url(fondo1.jpg);
+    background-position: center center;
+}
+.head button{
+    color: #4CDA00;
+    font-family: holyfat;
+    font-size: 1.7em;
+}
+.head button:hover{
+    background-color: #4CDA00;
+    color: white;
+}
+.head{
+    padding: 40px;
+}

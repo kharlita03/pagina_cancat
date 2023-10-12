@@ -1,0 +1,97 @@
+body {
+    background-image: url(./cancat/fondo1.jpg);
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    
+    
+}
+ 
+/* letra */
+@font-face {
+    font-family: holyfat;
+    src: url(./cancat/Holyfat.ttf);
+}
+
+.ff-holyfat {
+    font-family: holyfat;
+}
+
+.text{
+    text-align: justify;
+}
+/* bg-color */
+.bg-wt{
+    background-color: rgba(196, 225, 250, 0.437);
+    border-radius: 5rem;
+    
+}
+
+.bg-g{
+    background-color: rgba(35, 189, 35, 0.66);
+    border-radius: 1rem;
+    
+}
+
+.bg-wt-footer {
+    background-color: rgba(240, 248, 255, 0.437);
+}
+
+
+/* color-texto */
+.txt-g{
+    color: #4CDA00
+}
+
+.txt-b{
+    color: #42D2E2;
+}
+
+
+/* boton */
+.nav-item {
+    color: #63c72d;
+    background-color: transparent;
+    font-family: holyfat;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 2em;
+}
+
+.nav-link:hover {
+    background-color:#4CDA00;
+    color: rgb(240, 238, 238);
+    font-family: holyfat;
+    width: 6rem;
+}
+
+
+.btn-inscribete {
+    color: #ffffff;
+    background-color: #4CDA00;
+    font-family: holyfat;
+    width: 12rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 2em;
+}
+
+.btn-inscribete:hover{
+    background-color: #91f45b;
+
+}
+
+
+/* imagenes finales */
+
+.img-beneficios {
+    filter: none;
+}
+
+.img-beneficios:hover {
+    filter: brightness(2.2);
+}
